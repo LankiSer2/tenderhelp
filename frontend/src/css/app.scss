@@ -1,0 +1,27 @@
+body {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(31, 138, 106, 0.22), transparent 34%),
+    radial-gradient(circle at 88% 0%, rgba(232, 242, 238, 0.12), transparent 28%),
+    linear-gradient(160deg, #0f2a24, #16352d 46%, #1f4a3d);
+  min-height: 100vh;
+}
+
+.page-shell {
+  width: min(960px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2.5rem 0 3rem;
+}
+
+.brand-title {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 0 0 0.75rem;
+}
+
+.lead-text {
+  max-width: 40rem;
+  opacity: 0.82;
+  margin: 0;
+}
